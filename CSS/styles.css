@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+body {
+    margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+  padding-top: 10em;
+  padding-left: 10em;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+.explanation_container {
+    background-color: hsl(244, 38%, 16%);
+    margin: 0;
+    margin-right: 5rem;
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+.text_container {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.container_explanation {
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 40ch;
+}
+.container_image {
+    margin: 0;
+    mix-blend-mode: multiply;
+}
+.image_container {
+    background-color: hsl(277, 64%, 61%);
+    background-size: cover;
+}
+.span {
+    color: hsl(277, 64%, 61%);
+}
+.unordered_list_container {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    column-count: 3;
+    line-height: 0.3em;
+    margin-top: 6em;
+}
+.number {
+    color: white;
+    font-size: 2em;
+}
+.attribution { 
+    position: absolute;
+    top: 50rem;
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: white; 
+}
